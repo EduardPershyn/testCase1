@@ -5,9 +5,11 @@ To execute:
 ```
 docker-compose up
 ```
+
 http://127.0.0.1:8000/docs
 
 GET http://127.0.0.1:8000/wallet/0x7a16ff8270133f063aab6c9977183d9e72835428
+
 PUT http://127.0.0.1:8000/wallet/0x7a16ff8270133f063aab6c9977183d9e72835428
 
 
@@ -33,5 +35,7 @@ Final result must have a docker-compose file and be ready for testing with only 
 docker-compose up.
 Wallet for testing: 0x7a16ff8270133f063aab6c9977183d9e72835428
 Sources:
+
 ● Web3py – https://web3py.readthedocs.io/en/stable/
+
 ● CoinGecko Pricing API – https://www.coingecko.com/ru/api/documentation
