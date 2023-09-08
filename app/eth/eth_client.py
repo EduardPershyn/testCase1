@@ -1,7 +1,7 @@
 from web3 import Web3, AsyncWeb3
 from eth_abi import abi
 
-from utils import constants
+from app.utils import constants
 
 INFURA_ENDPOINT = "https://mainnet.infura.io/v3/024248831c8f4b5b9c280e2af82c2752"
 

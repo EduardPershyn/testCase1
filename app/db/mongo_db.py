@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
 
-CONNECTION_STRING = "mongodb://localhost:27017"
+CONNECTION_STRING = "mongodb://testcase1_db:27017"
 
 
 def init_database():
@@ -16,4 +16,5 @@ def init_database():
 
 
 db = init_database()
-collection_crv = db["crv"]
+db_crv_current = db["crv_current"]
+db_crv_history = db["crv_history"]

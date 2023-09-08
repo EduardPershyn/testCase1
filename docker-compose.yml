@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  testcase1_db:
+    image: mongo
+    ports:
+      - "27017:27017"
+  testcase1_web_app:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    image: wallet_api
+    depends_on:
+      - testcase1_db
+    ports:
+      - "8000:8000"

@@ -1,7 +1,7 @@
 from decimal import Decimal
 import requests
 
-from utils import constants
+from app.utils import constants
 
 PRICE_URL = ('https://api.coingecko.com/api/v3/simple/token_price/ethereum?contract_addresses='
              + constants.CRV_TOKEN_ADDRESS + '&vs_currencies=usd')
